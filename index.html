@@ -16,53 +16,55 @@
     />
     <link rel="stylesheet" href="style.css" />
 
-    <title>Eric Barnes</title>
+    <title>Eric Barnes | Cybersecurity</title>
   </head>
   <body>
-    <header>
-      <div class="container">
-        <h1><span>Eric </span>Barnes</h1>
-        <nav id="primary-nav" class="primary-nav" aria-label="Primary">
-          <!-- <a href="#about">About</a> --> 
-          <!-- <a href="#projects">Projects</a> -->
-          <!-- <a href="#contact">Contact</a> -->
-        </nav>
-        <button class="nav-button"aria-controls="primary-nav"aria-expanded="false">
-          <svg fill="var(--button-color)"class="hamburger"viewBox="0 0 100 100"width="75">
-            <rect class="line top"width="80"height="8"x="10"y="25"rx="4"></rect>
-            <rect class="line middle"width="80"height="8"x="10"y="45"rx="4"></rect>
-            <rect class="line bottom"width="80"height="8"x="10"y="65"rx="4"></rect>
-          </svg>
-        </button>
+    
+    <main class="card-container">
+      <div class="business-card">
+        
+        <div class="profile-section">
+          <img class="profile-pic" src="img/ebpfp.webp" alt="Eric Barnes" />
+          <h1>Eric Barnes</h1>
+          <h2 class="job-title"></h2>
+        </div>
+
+        <div class="bio-section">
+          <p>
+            I am a cybersecurity professional pursuing my Master's degree at Georgia Institute of Technology while working in mission critical space systems.
+            My goal is to advance network and systems security to enhance the resilience operational infrastructure.
+          </p>
+        </div>
+
+        <div class="cert-section">
+          <a href="https://www.credly.com/users/ericryanbarnes/badges" target="_blank" class="cert-title-link">
+            <h3>Certifications</h3>
+          </a>
+
+          <div class="cert-grid">
+            <span class="cert-tag">CCNA</span>
+            <span class="cert-tag">PenTest+</span>
+            <span class="cert-tag">Security+</span>
+            <span class="cert-tag">Network+</span>
+            <span class="cert-tag">A+</span>
+            <span class="cert-tag">ISC2 SSCP</span>
+            <span class="cert-tag">ISC2 CC</span>
+          </div>
+        </div>
+
+        <div class="links-section">
+          <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ericryanbarnes" class="fa fa-linkedin" target="_blank" aria-label="LinkedIn"></a>
+            <a href="https://github.com/ericryanbarnes" class="fa fa-github" target="_blank" aria-label="GitHub"></a>
+          </div>
+          
+          <a href="N/A" class="contact-btn">
+            Contact Me
+          </a>
+        </div>
+
       </div>
-    </header>
-    <nav class="mobile-nav" aria-expanded="false">
-      <a href="#about">About</a>
-      <!-- <a href="#projects">Projects</a> -->
-      <a href="#contact">Contact</a>
-    </nav>
-    <section class="about" id="about">
-      <div class="container">
-        <img class = "aboutpic" src="img/eb2.png" alt="Eric" />
-        <h2>About</h2> 
-        <p> 
-          I currently hold a A.A.S. in Cybersecurity from PPSC and a B.S. in Cybersecurity 
-          and Information Assurance from WGU. I hold over 10 recognized 
-          industry certifications, including Cisco's CCNA, ISC2's SSCP, and CompTIA's Security+.
-          I am confident that my knowledge and skills in these areas will help me make a significant
-          contribution to the field and excel thoughout my career with information systems and network security.
-        </p>
-      </div>
-    </section>
-    <footer>
-      <div class="container">
-        <a
-        href="https://www.linkedin.com/in/ericryanbarnes"
-        class="fa fa-linkedin"
-      ></a>
-        <a href="https://github.com/ericryanbarnes" class="fa fa-github"></a>
-      </div>
-    </footer>
-    <script src="main.js"></script>
+    </main>
+
   </body>
 </html>
